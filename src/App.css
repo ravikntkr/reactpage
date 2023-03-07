@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #0e1924;
+}
+
+/* Header area styling */
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.menuItems {
+  text-decoration: none;
+  font-size: 17px;
+  color: #e3e3ea;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.menuItems:hover {
+  color: #9966ff;
+}
+
+.cvBtn {
+  border: 0;
+  background-color: #14175809;
+  color: #e3e3ea;
+  font-size: 17px;
+  padding: 13px 25px;
+  border: 1px solid #e3e3ea;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Footer area styling */
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid #222b45;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 17px;
+  color: #e3e3ea;
+}
+
+.socialItems {
+  width: 35px;
+  height: 35px;
+  background-color: #14175800;
+  color: #fff;
+  border: 1px solid #e3e3ea;
+  border-radius: 50%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.socialIcons {
+  margin: 8px 0 0 10px;
+}
+
+/* Hero area styling */
+
+.hero {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.heroLeft {
+  padding-top: 120px;
+}
+
+.heroRight {
+  padding-top: 60px;
+}
+
+.authorName {
+  color: #e3e3ea;
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.authorBio {
+  color: #e3e3ea;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.3em;
+}
+
+.LetsTalk {
+  margin-top: 30px;
+}
+
+.btnIcon {
+  margin-left: 7px;
+}
+
+/* Course page styling */
+.CourseSection {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.courseTitle {
+  color: #e3e3ea;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.courseMain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+.courses {
+  width: 24%;
+  margin-bottom: 50px;
+}
+
+/* Courses Card styling */
+
+.card {
+  background-color: #222b45;
+  height: 330px;
+  padding: 15px;
+  border-radius: 11px;
+  position: relative;
+}
+
+.card * {
+  background-color: #222b45;
+}
+
+.courseThumb {
+  width: 100%;
+  border-radius: 11px;
+}
+
+.cardTitle {
+  color: #e3e3ea;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.cardBio {
+  position: absolute;
+  bottom: 45px;
+  color: #e3e3ea;
+  font-size: 16px;
+}
+
+.Cprice {
+  position: absolute;
+  bottom: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #e3e3ea;
+}
+
+s {
+  font-size: 14px;
+  color: #707997;
+}
+
+/* Error styling */
+
+.Errorc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact page styling */
+
+.contactContainer {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contactTitle {
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  border: 0;
+  background-color: #425266;
+  padding: 12px 20px;
+  border-radius: 11px;
+  font-size: 17px;
+  color: #e3e3ea;
+}
+
+input::placeholder {
+  font-size: 17px;
+  color: #99a1ad;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea::placeholder {
+  font-size: 17px;
+  color: #99a1ad;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+.formBtn {
+  background-color: #9966ff;
+  cursor: pointer;
+}

@@ -1,0 +1,177 @@
+/* Md screen [Tablets ] */
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* Header area styling */
+
+  header {
+    width: 93%;
+  }
+
+  .menu {
+    gap: 40px;
+  }
+
+  /* Footer area styling */
+
+  footer {
+    max-width: 93%;
+  }
+
+  /* Hero area styling */
+
+  .hero {
+    max-width: 93%;
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+
+  .heroLeft {
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .heroRight {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Course page styling */
+  .CourseSection {
+    max-width: 93%;
+  }
+
+  .courseTitle {
+    margin-bottom: 40px;
+  }
+
+  .courseMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1%;
+  }
+
+  .courses {
+    width: 49%;
+    margin-bottom: 50px;
+  }
+
+  /* Courses Card styling */
+
+  .card {
+    height: 350px;
+  }
+
+  /* Contact page styling */
+
+  .contactContainer {
+    max-width: 93%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* Small screen [Mobile] */
+@media only screen and (max-width: 600px) {
+  /* Header area styling */
+
+  header {
+    width: 93%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+
+  /* Footer area styling */
+
+  footer {
+    max-width: 93%;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0;
+  }
+
+  /* Hero area styling */
+
+  .hero {
+    max-width: 93%;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .heroLeft {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .heroRight {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .authorName {
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .authorBio {
+    color: #e3e3ea;
+    font-size: 20px;
+  }
+
+  .heroImage {
+    width: 90%;
+  }
+
+  /* Course page styling */
+  .CourseSection {
+    max-width: 93%;
+    padding-top: 30px;
+  }
+
+  .courseMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1%;
+  }
+
+  .courses {
+    width: 99%;
+    margin-bottom: 50px;
+  }
+
+  .courseTitle {
+    margin-bottom: 50px;
+  }
+
+  /* Courses Card styling */
+
+  .card {
+    height: 350px;
+  }
+
+  /* Contact page styling */
+
+  .contactContainer {
+    max-width: 93%;
+  }
+
+  .contactTitle {
+    margin-bottom: 30px;
+  }
+
+  form {
+    width: 90%;
+  }
+}
